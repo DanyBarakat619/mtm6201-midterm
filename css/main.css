@@ -1,0 +1,26 @@
+/* Reset default browser spacing */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* Page background and body font */
+body{
+font-family:'Karla', sans-serif;
+background-color:#f3f0e9;
+color:#000;
+line-height:1.6;
+}
+
+/* Headings use Lato font */
+h1,h2,h3{
+font-family:'Lato', sans-serif;
+}
+
+/* Center content and limit width */
+.wrapper{
+max-width:1200px;
+margin:auto;
+padding:1rem;
+}
