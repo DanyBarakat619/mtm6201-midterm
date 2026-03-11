@@ -215,3 +215,11 @@ text-decoration:none;
 display:inline-block;
 margin-top:20px;
 }
+
+.cta-split{
+flex-direction:row;
+}
+
+.cta{
+flex:1;
+}
