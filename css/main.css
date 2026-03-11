@@ -57,7 +57,7 @@ font-weight:bold;
 /* Hero section */
 
 .hero{
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../css/images/hero-background.jpg");
+background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/hero-background.jpg");
 background-size:cover;
 background-position:center;
 text-align:center;
