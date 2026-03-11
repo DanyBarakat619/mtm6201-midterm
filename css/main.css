@@ -174,3 +174,44 @@ justify-content:space-between;
 font-family:'Lato', sans-serif;
 margin-bottom:10px;
 }
+/* Split call-to-action section */
+
+.cta-split{
+display:flex;
+flex-direction:column;
+}
+
+.cta{
+color:white;
+text-align:center;
+padding:100px 20px;
+background-size:cover;
+background-position:center;
+}
+
+.menu-cta{
+background-image:url("../css/images/coffee-shop.jpeg");
+}
+
+.location-cta{
+background-image:url("../css/images/pouring-coffee.jpeg");
+}
+
+.cta-button{
+background:white;
+color:black;
+padding:12px 24px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+margin-top:20px;
+}
+
+.cta-button-outline{
+border:2px solid white;
+color:white;
+padding:12px 24px;
+text-decoration:none;
+display:inline-block;
+margin-top:20px;
+}
