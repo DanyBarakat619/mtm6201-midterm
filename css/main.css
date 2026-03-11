@@ -87,3 +87,36 @@ text-decoration:none;
 font-weight:bold;
 display:inline-block;
 }
+
+/* Coffee gallery section */
+
+.coffee-gallery{
+background:#f3f0e9;
+text-align:center;
+padding:60px 20px;
+}
+
+.section-subtitle{
+color:#d69e3d;
+font-weight:bold;
+font-family:'Lato', sans-serif;
+margin-bottom:10px;
+}
+
+.coffee-gallery h2{
+font-family:'Lato', sans-serif;
+margin-bottom:40px;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:1fr;
+gap:15px;
+max-width:1200px;
+margin:auto;
+}
+
+.gallery-grid img{
+width:100%;
+display:block;
+}
