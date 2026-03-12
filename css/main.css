@@ -372,9 +372,43 @@ color:#ccc;
 }
 
 .cta-section{
+display:grid;
+grid-template-columns:1fr 1fr;
+}
+
+.menu-cta{
 background-image:url("../css/images/coffee-shop.jpeg");
 background-size:cover;
 background-position:center;
+}
+
+.location-cta{
+background-image:url("../css/images/pouring-coffee.jpeg");
+background-size:cover;
+background-position:center;
+}
+
+.cta{
+padding:120px 60px;
+text-align:center;
+color:white;
+position:relative;
+}
+
+.cta::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.4);
+}
+
+.cta *{
+position:relative;
+z-index:2;
+}
 display:grid;
 grid-template-columns:1fr 1fr;
 padding:120px 60px;
