@@ -569,3 +569,19 @@ max-width:450px;
 .cta-section{
 min-height:320px;
 }
+
+.menu-cta h2,
+.location-cta h2{
+font-size:42px;
+line-height:1.2;
+max-width:420px;
+}
+
+.section-subtitle{
+margin-bottom:10px;
+}
+
+.cta-button,
+.cta-button-outline{
+margin-top:20px;
+}
