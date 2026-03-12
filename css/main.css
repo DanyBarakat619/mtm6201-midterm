@@ -371,3 +371,45 @@ font-size:14px;
 color:#ccc;
 }
 
+.cta-section{
+background-image:url("../css/images/coffee-shop.jpeg");
+background-size:cover;
+background-position:center;
+display:grid;
+grid-template-columns:1fr 1fr;
+padding:120px 60px;
+position:relative;
+color:white;
+}
+
+.cta-section::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.45);
+}
+
+.cta{
+position:relative;
+z-index:2;
+text-align:center;
+}
+
+.cta-button{
+background:white;
+color:black;
+padding:12px 28px;
+text-decoration:none;
+font-weight:600;
+}
+
+.cta-button-outline{
+border:2px solid white;
+padding:12px 28px;
+color:white;
+text-decoration:none;
+}
+
