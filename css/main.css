@@ -455,3 +455,35 @@ color:white;
 text-decoration:none;
 }
 
+.cta-section{
+background-image:url("../css/images/coffee-shop.jpeg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:space-between;
+padding:120px 80px;
+position:relative;
+color:white;
+}
+
+.cta-section::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.45);
+}
+
+.menu-cta,
+.location-cta{
+background:none !important;
+}
+
+.cta{
+position:relative;
+z-index:2;
+max-width:500px;
+text-align:center;
+}
