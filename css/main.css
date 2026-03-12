@@ -516,3 +516,46 @@ position:relative;
 z-index:2;
 max-width:450px;
 }
+/* FORCE REMOVE PANELS */
+
+.menu-cta,
+.location-cta{
+background:none !important;
+background-image:none !important;
+box-shadow:none !important;
+border:none !important;
+}
+
+.menu-cta::before,
+.location-cta::before{
+display:none !important;
+}
+
+/* FORCE SINGLE IMAGE */
+
+.cta-section{
+background:url("../css/images/coffee-shop.jpeg") center/cover no-repeat !important;
+position:relative !important;
+display:flex !important;
+justify-content:space-between !important;
+align-items:center !important;
+padding:120px 100px !important;
+color:white !important;
+}
+
+.cta-section::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.45);
+}
+
+.menu-cta,
+.location-cta{
+position:relative;
+z-index:2;
+max-width:450px;
+}
