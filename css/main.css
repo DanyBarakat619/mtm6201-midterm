@@ -337,3 +337,8 @@ text-align:left;
 .gallery h2{
 text-align:left;
 }
+.gallery{
+max-width:1200px;
+margin:auto;
+padding:80px 20px;
+}
