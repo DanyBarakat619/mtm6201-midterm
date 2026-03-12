@@ -384,18 +384,6 @@ height:100%;
 background:rgba(0,0,0,0.45);
 }
 
-.menu-cta{
-background-image:url("../css/images/coffee-shop.jpeg");
-background-size:cover;
-background-position:center;
-}
-
-.location-cta{
-background-image:url("../css/images/pouring-coffee.jpeg");
-background-size:cover;
-background-position:center;
-}
-
 .cta{
 padding:120px 60px;
 text-align:center;
