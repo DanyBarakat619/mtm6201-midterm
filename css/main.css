@@ -367,12 +367,17 @@ color:#ccc;
 background-image:url("../css/images/coffee-shop.jpeg");
 background-size:cover;
 background-position:center;
+
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:90px 120px;
+
+height:360px;
+padding:0 120px;
+
 position:relative;
 color:white;
+overflow:hidden;
 }
 
 .cta-section::before{
@@ -562,5 +567,5 @@ max-width:450px;
 }
 
 .cta-section{
-min-height:350px;
+min-height:320px;
 }
