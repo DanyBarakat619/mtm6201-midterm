@@ -330,27 +330,4 @@ font-weight:700;
 margin-bottom:40px;
 }
 
-.gallery{
-text-align:left;
-}
-.section-subtitle,
-.gallery h2{
-text-align:left;
-}
-.gallery{
-max-width:1200px;
-margin:auto;
-padding:80px 20px;
-}
 
-.gallery h2{
-text-align:left;
-max-width:800px;
-}
-
-.gallery{
-max-width:1200px;
-margin:0 auto;
-padding:80px 20px;
-text-align:left;
-}
