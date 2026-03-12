@@ -330,4 +330,13 @@ font-weight:700;
 margin-bottom:40px;
 }
 
+.gallery .section-subtitle{
+text-align:left;
+}
+
+.gallery h2{
+text-align:left;
+max-width:800px;
+}
+
 
