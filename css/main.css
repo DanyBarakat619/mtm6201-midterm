@@ -367,9 +367,10 @@ color:#ccc;
 background-image:url("../css/images/coffee-shop.jpeg");
 background-size:cover;
 background-position:center;
-display:grid;
-grid-template-columns:1fr 1fr;
-padding:120px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:90px 120px;
 position:relative;
 color:white;
 }
