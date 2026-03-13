@@ -597,3 +597,15 @@ margin-top:20px;
 .gallery-section h2{
     text-align: left;
 }
+
+.coffee-gallery{
+    text-align:left;
+}
+
+.coffee-gallery .section-subtitle{
+    text-align:left;
+}
+
+.coffee-gallery h2{
+    text-align:left;
+}
