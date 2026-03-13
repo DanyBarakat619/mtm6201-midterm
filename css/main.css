@@ -623,3 +623,16 @@ margin-top:20px;
 .testimonials h2{
     text-align:left;
 }
+
+.logo{
+width:180px;
+margin-left:40px;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:25px;
+padding:0;
+margin-right:40px;
+}
