@@ -622,3 +622,9 @@ margin-top:20px;
 .testimonials h2{
     text-align:left;
 }
+
+.cta-section{
+height:auto !important;
+min-height:0 !important;
+padding:20px 120px !important;
+}
